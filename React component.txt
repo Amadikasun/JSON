@@ -1,0 +1,26 @@
+Použití knihovny pro práci s HTTP požadavky, jako je axios nebo fetch, která umožňuje poslat požadavek na API endpoint pro získání obrázků.
+
+import axios from 'axios';
+
+class Gallery extends React.Component {
+  state = {
+    images: []
+  }
+
+  componentDidMount() {
+    axios.get('http://localhost:3000/images')
+      .then(res => {
+        this.setState({ images: res.data });
+      })
+  }
+
+  render() {
+    return (
+      <div>
+        {this.state.images.map(image => (
+          <img key={image.id} src={image.url} alt={image.title} />
+        ))}
+      </div>
+    );
+  }
+}

@@ -1,0 +1,23 @@
+Použití knihovny pro práci s HTTP požadavky, jako je HttpClient, která umožňuje poslat požadavek na API endpoint pro získání obrázků.
+
+
+
+import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  images: any[];
+
+  constructor(private http: HttpClient) { }
+
+  ngOnInit() {
+    this.http.get('http://localhost:3000/images').subscribe(data => {
+      this.images = data;
+    });
+  }
+}

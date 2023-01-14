@@ -1,0 +1,36 @@
+Použití knihovny pro práci s HTTP požadavky, jako je axios nebo vue-resource, která umožňuje poslat požadavek na API endpoint.
+
+import axios from 'axios';
+
+export default {
+  data() {
+    return {
+      images: []
+    }
+  },
+  mounted() {
+    axios.get('http://localhost:3000/images')
+      .then(res => {
+        this.images = res.data;
+      })
+  }
+}
+
+Použití knihovny pro práci s HTTP požadavky, jako je axios nebo vue-resource, která umožňuje poslat požadavek na API endpoint pro získání konkrétního obrázku. Například pro získání obrázku s ID 1 by se poslal požadavek na endpoint http://localhost:3000/images/1.
+
+
+import axios from 'axios';
+
+export default {
+  data() {
+    return {
+      image: {}
+    }
+  },
+  mounted() {
+    axios.get('http://localhost:3000/images/1')
+      .then(res => {
+        this.image = res.data;
+      })
+  }
+}
