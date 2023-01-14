@@ -6,7 +6,7 @@ const cors = require('cors');
 
 
 app.use(cors(
-  { origin: ['https://reactdiplomka.netlify.app', 'https://angulardiplomka.netlify.app/home','https://vuediplomka.netlify.app', 'https://minigamesdiplomka.netlify.app', 'http://192.168.1.21:3000/', 'http://localhost:3000'] }
+  { origin: ['https://reactdiplomka.netlify.app', 'https://angulardiplomka.netlify.app/home','https://vuediplomka.netlify.app', 'https://minigamesdiplomka.netlify.app'] }
 ));
 
 const PORT = 5000;
