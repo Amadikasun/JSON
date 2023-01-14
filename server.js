@@ -9,9 +9,9 @@ app.use(cors(
   { origin: ['https://reactdiplomka.netlify.app', 'https://angulardiplomka.netlify.app/home','https://vuediplomka.netlify.app', 'https://minigamesdiplomka.netlify.app'] }
 ));
 
-const PORT = 5000;
+const port = process.env.PORT || 5000;
 ALBUMS_ROOT_PATH = `/images`;
-GAME_PATH = `/game`;
+// GAME_PATH = `/game`;
 
 //GALERIE
 
@@ -41,6 +41,6 @@ app.get(`${ALBUMS_ROOT_PATH}/:slug`, (req, res) => {
 //   }
 // })
 
-app.listen(PORT, () => {
-  console.log(`Jana API listening on port ${PORT}`);
+app.listen(port, () => {
+  console.log(`Jana API listening on port ${port}`);
 });
