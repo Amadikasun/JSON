@@ -15,14 +15,6 @@ ALBUMS_ROOT_PATH = `/images`;
 
 //GALERIE
 
-app.get(``,(req, res) => {
-  res.send("Vítej na webové stránce!");
-}
-)
-app.get(`/:slug`, (req, res) => {
-  res.send("Vítej na webové stránce!");
-});
-
 
 app.get(`${ALBUMS_ROOT_PATH}/:id`, (req, res) => {
   const imageId = req.params.id;
@@ -33,10 +25,6 @@ app.get(`${ALBUMS_ROOT_PATH}/:id`, (req, res) => {
       res.json(JSON.parse(data));
     }
   });
-});
-
-app.get(`${ALBUMS_ROOT_PATH}/:slug`, (req, res) => {
-  res.send("Vítej na webové stránce!");
 });
 
 // ZDE BUDE HRA
