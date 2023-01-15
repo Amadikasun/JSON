@@ -2,7 +2,7 @@
   "name": "json",
   "version": "1.0.0",
   "description": "API Node.js server",
-  "main": "./src/index.js",
+  "main": "./server.js",
   "scripts": {
     "start": "node server.js"
   },
