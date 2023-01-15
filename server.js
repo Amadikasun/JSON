@@ -15,12 +15,20 @@ ALBUMS_ROOT_PATH = `/images`;
 
 //GALERIE
 
+app.get(``,(req, res) => {
+  res.send("Vítej na webové stránce!");
+}
+)
+app.get(`/:slug`, (req, res) => {
+  res.send("Vítej na webové stránce!");
+});
+
 
 app.get(`${ALBUMS_ROOT_PATH}/:id`, (req, res) => {
   const imageId = req.params.id;
   fs.readFile(`./images/${imageId}.json`, 'utf8', (err, data) => {
     if (err) {
-      res.status(404).send('Image not found');
+      res.status(404).send('Image not found :( !');
     } else {
       res.json(JSON.parse(data));
     }
@@ -28,7 +36,7 @@ app.get(`${ALBUMS_ROOT_PATH}/:id`, (req, res) => {
 });
 
 app.get(`${ALBUMS_ROOT_PATH}/:slug`, (req, res) => {
-  res.send("ahoj");
+  res.send("Vítej na webové stránce!");
 });
 
 // ZDE BUDE HRA
