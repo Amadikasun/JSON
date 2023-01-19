@@ -10,7 +10,7 @@ app.use(cors(
 ));
 
 const port = process.env.PORT || 5000;
-ALBUMS_ROOT_PATH = `/images`;
+const ALBUMS_ROOT_PATH = `/images`;
 // GAME_PATH = `/game`;
 
 //GALERIE
