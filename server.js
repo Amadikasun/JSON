@@ -9,7 +9,7 @@ app.use(cors(
   { origin: ['https://reactdiplomka.netlify.app', 'https://angulardiplomka.netlify.app/home','https://vuediplomka.netlify.app', 'https://minigamesdiplomka.netlify.app'] }
 ));
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 const ALBUMS_ROOT_PATH = `/images`;
 // GAME_PATH = `/game`;
 
