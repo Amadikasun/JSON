@@ -1,0 +1,5 @@
+[[headers]]
+  for = "/images.json"
+  [headers.values]
+    Access-Control-Allow-Origin = ["https://vuediplomka.netlify.app", "https://reactdiplomka.netlify.app", "https://angulardiplomka.netlify.app"]
+
