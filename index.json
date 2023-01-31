@@ -2,35 +2,35 @@
     "id": 1,
     "title": "Kostel sv. Václava - Kraj Vysočina",
     "description": "Kostel pany Marie v Jihomoravském kraji",
-    "url": "https://diplomkaserver.netlify.app/image/kostelVaclav.jpg"
+    "url": "https://diplomkaserver.netlify.app/images/kostelVaclav.jpg"
 },
 {
     "id": 2,
     "title": "Kýčovitá krajina v Těšovicích",
     "description": "Kýčovitá krajina v Těšovicích",
-    "url": "https://diplomkaserver.netlify.app/image/kycovitakrajina.jpg"
+    "url": "https://diplomkaserver.netlify.app/images/kycovitakrajina.jpg"
 },
 {
     "id": 3,
     "title": "Květina uprostřed louky",
     "description": "Květina uprostřed louky - Těšovice",
-    "url": "https://diplomkaserver.netlify.app/image/kytka.jpg"
+    "url": "https://diplomkaserver.netlify.app/images/kytka.jpg"
 },
 {
     "id": 4,
     "title": "Kříž v Pernštejnském Jestřabí",
     "description": "Kříž v Pernštejnském Jestřabí",
-    "url": "https://diplomkaserver.netlify.app/image/kriz.jpg"
+    "url": "https://diplomkaserver.netlify.app/images/kriz.jpg"
 },
 {
     "id": 5,
     "title": "Rozhledna Krudum",
     "description": "Rozhledna Krudum Karlovarský kraj",
-    "url": "https://diplomkaserver.netlify.app/image/Krudum.jpg"
+    "url": "https://diplomkaserver.netlify.app/images/Krudum.jpg"
 },
 {
     "id": 6,
     "title": "Stádo krav v Pernštejnském Jestřabí",
     "description": "Stádo krav v Pernštejnském Jestřabí",
-    "url": "https://diplomkaserver.netlify.app/image/kravy.jpg"
+    "url": "https://diplomkaserver.netlify.app/images/kravy.jpg"
 }]
