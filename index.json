@@ -1,36 +1,36 @@
 [{
     "id": 1,
     "title": "Kostel sv. Václava - Kraj Vysočina",
-    "description": "Kostel sv. Václava - Kraj Vysočina, PRO ÚPLNÉ ZOBRAZENÍ OBZÁZKU ZDE ODKAZ: https://diplomkaserver.netlify.app/images/kostelVaclav.jpg ",
+    "description": "Kostel sv. Václava - Kraj Vysočina, PRO ÚPLNÉ ZOBRAZENÍ OBRÁZKU ZDE ODKAZ: https://diplomkaserver.netlify.app/images/kostelVaclav.jpg ",
     "url": "https://diplomkaserver.netlify.app/images/kostelVaclav.jpg"
 },
 {
     "id": 2,
     "title": "Kýčovitá krajina v Těšovicích",
-    "description": "Kýčovitá krajina v Těšovicích, PRO ÚPLNÉ ZOBRAZENÍ OBZÁZKU ZDE ODKAZ: https://diplomkaserver.netlify.app/images/kycovitakrajina.jpg",
+    "description": "Kýčovitá krajina v Těšovicích, PRO ÚPLNÉ ZOBRAZENÍ OBRÁZKU ZDE ODKAZ: https://diplomkaserver.netlify.app/images/kycovitakrajina.jpg",
     "url": "https://diplomkaserver.netlify.app/images/kycovitakrajina.jpg"
 },
 {
     "id": 3,
     "title": "Květina uprostřed louky",
-    "description": "Květina uprostřed louky - Těšovice, PRO ÚPLNÉ ZOBRAZENÍ OBZÁZKU ZDE ODKAZ: https://diplomkaserver.netlify.app/images/kytka.jpg",
+    "description": "Květina uprostřed louky - Těšovice, PRO ÚPLNÉ ZOBRAZENÍ OBRÁZKU ZDE ODKAZ: https://diplomkaserver.netlify.app/images/kytka.jpg",
     "url": "https://diplomkaserver.netlify.app/images/kytka.jpg"
 },
 {
     "id": 4,
     "title": "Kříž v Pernštejnském Jestřabí",
-    "description": "Kříž v Pernštejnském Jestřabí, PRO ÚPLNÉ ZOBRAZENÍ OBZÁZKU ZDE ODKAZ: https://diplomkaserver.netlify.app/images/kriz.jpg",
+    "description": "Kříž v Pernštejnském Jestřabí, PRO ÚPLNÉ ZOBRAZENÍ OBRÁZKU ZDE ODKAZ: https://diplomkaserver.netlify.app/images/kriz.jpg",
     "url": "https://diplomkaserver.netlify.app/images/kriz.jpg"
 },
 {
     "id": 5,
     "title": "Rozhledna Krudum",
-    "description": "Rozhledna Krudum Karlovarský kraj, PRO ÚPLNÉ ZOBRAZENÍ OBZÁZKU ZDE ODKAZ: https://diplomkaserver.netlify.app/images/Krudum.jpg",
+    "description": "Rozhledna Krudum Karlovarský kraj, PRO ÚPLNÉ ZOBRAZENÍ OBRÁZKU ZDE ODKAZ: https://diplomkaserver.netlify.app/images/Krudum.jpg",
     "url": "https://diplomkaserver.netlify.app/images/Krudum.jpg"
 },
 {
     "id": 6,
     "title": "Stádo krav v Pernštejnském Jestřabí",
-    "description": "Stádo krav v Pernštejnském Jestřabí, PRO ÚPLNÉ ZOBRAZENÍ OBZÁZKU ZDE ODKAZ: https://diplomkaserver.netlify.app/images/kravy.jpg",
+    "description": "Stádo krav v Pernštejnském Jestřabí, PRO ÚPLNÉ ZOBRAZENÍ OBRÁZKU ZDE ODKAZ: https://diplomkaserver.netlify.app/images/kravy.jpg",
     "url": "https://diplomkaserver.netlify.app/images/kravy.jpg"
 }]
