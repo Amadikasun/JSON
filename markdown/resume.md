@@ -6,6 +6,7 @@ Phone: +420 774 315 755
 
 Website: [Github](https://github.com/Amadikasun)
    
+   
 #### About me
 -------------------
 - I am a college student. I consider myself a reliable and goal-oriented person. I learn quickly and make contacts. I can work independently and in a group.
